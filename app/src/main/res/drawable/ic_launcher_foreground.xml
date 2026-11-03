@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Sun Rays -->
+    <path
+        android:pathData="M 64,22 L 64,26 M 64,54 L 64,58 M 48,40 L 52,40 M 76,40 L 80,40 M 53,29 L 56,32 M 72,48 L 75,51 M 53,51 L 56,48 M 72,29 L 75,32"
+        android:strokeWidth="2"
+        android:strokeColor="#FFC107"
+        android:strokeLineCap="round" />
+
+    <!-- Radiant Glowing Sun -->
+    <path android:pathData="M 64,28 A 12,12 0 1,1 63.99,28 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="58"
+                android:startY="32"
+                android:endX="70"
+                android:endY="44"
+                android:type="linear">
+                <item android:color="#FFE082" android:offset="0.0" />
+                <item android:color="#FF9800" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Skyline City Silhouette (Towers & Windows) -->
+    <!-- Tower 1 -->
+    <path android:pathData="M 31,54 L 39,54 L 39,70 L 31,70 Z" android:fillColor="#1E293B" />
+    <!-- Tower 2 (Main Skyscraper) -->
+    <path android:pathData="M 39,44 L 48,44 L 48,70 L 39,70 Z" android:fillColor="#0F172A" />
+    <path android:pathData="M 43.5,37 L 43.5,44" android:strokeWidth="1.5" android:strokeColor="#38BDF8" />
+    <!-- Tower 3 -->
+    <path android:pathData="M 48,48 L 58,48 L 58,70 L 48,70 Z" android:fillColor="#1E293B" />
+    <!-- Tower 4 -->
+    <path android:pathData="M 58,52 L 67,52 L 67,70 L 58,70 Z" android:fillColor="#334155" />
+    <!-- Tower 5 -->
+    <path android:pathData="M 67,56 L 75,56 L 75,70 L 67,70 Z" android:fillColor="#1E293B" />
+
+    <!-- Lit Skyscraper Windows -->
+    <path android:pathData="M 41,47 h2 v2 h-2 z M 45,47 h2 v2 h-2 z M 41,51 h2 v2 h-2 z M 45,51 h2 v2 h-2 z M 41,55 h2 v2 h-2 z M 45,55 h2 v2 h-2 z M 33,57 h2 v2 h-2 z M 35,62 h2 v2 h-2 z M 51,51 h2 v2 h-2 z M 54,51 h2 v2 h-2 z M 51,56 h2 v2 h-2 z M 60,55 h2 v2 h-2 z M 63,55 h2 v2 h-2 z M 69,60 h2 v2 h-2 z" android:fillColor="#FDE047" />
+
+    <!-- Soft Cloud Shadow -->
+    <path
+        android:pathData="M 32,66 L 70,66 A 7,7 0 0,0 73,53 A 9,9 0 0,0 60,48 A 13,13 0 0,0 36,52 A 9,9 0 0,0 32,66 Z"
+        android:fillColor="#30000000" />
+
+    <!-- Vibrant Weather Cloud -->
+    <path android:pathData="M 33,64 L 69,64 A 7,7 0 0,0 72,51 A 9,9 0 0,0 59,46 A 13,13 0 0,0 35,50 A 9,9 0 0,0 33,64 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="40"
+                android:startY="42"
+                android:endX="65"
+                android:endY="65"
+                android:type="linear">
+                <item android:color="#FFFFFF" android:offset="0.0" />
+                <item android:color="#F0F9FF" android:offset="0.6" />
+                <item android:color="#BAE6FD" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Subtle Cloud Highlight Rim -->
+    <path
+        android:pathData="M 35,50 A 13,13 0 0,1 59,46 A 9,9 0 0,1 71,50"
+        android:strokeWidth="1.5"
+        android:strokeColor="#FFFFFF"
+        android:fillColor="#00000000" />
+</vector>

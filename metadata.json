@@ -1,0 +1,6 @@
+{
+  "name": "Skyline Weather",
+  "description": "A modern and beautiful weather app featuring real-time updates, offline cache, GPS location, alerts, AQI, and animated condition effects.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
